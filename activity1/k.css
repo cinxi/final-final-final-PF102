@@ -49,6 +49,7 @@ p{
     margin-top: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 p{
     text-align: center;
     color: black;
@@ -67,6 +68,9 @@ nav{
     display: flex;
     gap: 30px;
     margin-left: 20px;
+    background-color: white;
+    position: fixed;
+
 }
 a:hover{
     color: grey;

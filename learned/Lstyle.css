@@ -1,9 +1,16 @@
-
-body{
+body {
     background-color: white;
+    padding-top: 2px;
+
 }
-h1{
-   text-align: center; 
+
+h1 {
+    padding-top: 20px;
+    margin-left: 300px;
+}
+
+p {
+    margin-left: 400px;
 }
 
 li{
@@ -19,6 +26,8 @@ nav{
     display: flex;
     gap: 30px;
     margin-left: 20px;
+    background-color: white;
+
 }
 a:hover{
     color: grey;
