@@ -1,0 +1,43 @@
+
+body{
+    background-color: white;
+    align-content: center;
+}
+.name{
+    text-align: center;
+    color: black;
+
+}
+.namecolor{
+    text-align: center;
+    color: grey;
+}
+.title{
+    text-align: center;
+    color: #31363F;                                                                                                                                 
+}
+p{
+    text-align: center;
+    color: black;
+}
+
+li{
+    list-style: none;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+nav{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+a:hover{
+    color: grey;
+}
+a:active{
+    color: grey;
+}

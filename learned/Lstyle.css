@@ -1,0 +1,28 @@
+
+body{
+    background-color: white;
+}
+h1{
+   text-align: center; 
+}
+
+li{
+    list-style: none;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+nav{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+a:hover{
+    color: grey;
+}
+a:active{
+    color: grey;
+}
