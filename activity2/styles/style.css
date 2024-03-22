@@ -125,27 +125,28 @@ p{
     text-align: center;
     color: black;
 }
+nav{
+    background-color: black;
+    overflow: hidden;
 
+}
 li{
     list-style: none;
-    margin-top: 20px;
 }
 a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: black;
-
-}
-nav{
-    display: flex;
-    gap: 30px;
-    margin-left: 20px;
-    background-color: white;
-    position: fixed;
+    font-size: 17px;
 
 }
 a:hover{
-    color: grey;
+    background-color: #ddd;
+    color: black;
 }
 a:active{
-    color: grey;
+    background-color: gray;
+  color: white;
 }

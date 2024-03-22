@@ -1,8 +1,8 @@
 body {
     background-color: white;
     padding-top: 2px;
-
 }
+
 
 h1 {
     padding-top: 20px;
@@ -13,25 +13,28 @@ p {
     margin-left: 400px;
 }
 
-li{
-    list-style: none;
-    margin-top: 20px;
-}
-a{
-    text-decoration: none;
-    color: black;
+nav{
+    background-color: black;
+    overflow: hidden;
 
 }
-nav{
-    display: flex;
-    gap: 30px;
-    margin-left: 20px;
-    background-color: white;
+li{
+    list-style: none;
+}
+a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 
 }
 a:hover{
-    color: grey;
+    background-color: #ddd;
+    color: black;
 }
 a:active{
-    color: grey;
+    background-color: gray;
+  color: white;
 }
